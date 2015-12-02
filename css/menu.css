@@ -1,0 +1,18 @@
+/*nav*/
+nav.menu {
+  background-color: #dcdcdc;
+  /*float: left;*/
+  width: 38%;
+  display: inline-block;
+}
+
+nav.menu ul {
+  list-style: none;
+}
+
+nav.menu ul li {
+  text-transform: capitalize;
+  border-bottom: 1px solid #cefdff;
+  padding: 15px;
+  height: 40px;
+}
