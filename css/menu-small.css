@@ -1,0 +1,10 @@
+/*nav*/
+nav.menu {
+  width: 100%;
+  display: block;
+}
+
+nav.menu ul li {
+  font-size: 16px;
+  padding: 10px;
+}

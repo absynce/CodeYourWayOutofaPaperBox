@@ -1,9 +1,9 @@
 /*nav*/
 nav.menu {
   background-color: #dcdcdc;
-  /*float: left;*/
   width: 38%;
   display: inline-block;
+  text-align: center;
 }
 
 nav.menu ul {
@@ -11,8 +11,12 @@ nav.menu ul {
 }
 
 nav.menu ul li {
-  text-transform: capitalize;
+  font-size: 18px;
+  text-transform: uppercase;
   border-bottom: 1px solid #cefdff;
   padding: 15px;
-  height: 40px;
+}
+
+nav.menu ul li span {
+  vertical-align: middle;
 }

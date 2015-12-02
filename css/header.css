@@ -1,5 +1,11 @@
 header {
   background-color: #bffff1;
-  height: 50px;
+  font-size: 18px;
+}
+
+header h1 {
   padding: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
